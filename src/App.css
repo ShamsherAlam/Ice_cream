@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 0px 10px;
+}
+.App-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
+.carousel-wrapper {
+  margin-top: 20px;
+}
+.ice-box {
+  background-color: #d8d84a;
+  margin-left: 15%;
+  border: 5px solid black;
+}
+.disabled-ice-box {
+  pointer-events: none;
+  opacity: 0.4;
+  background-color: #d8d84a;
+  margin-left: 15%;
+  border: 5px solid black;
+}
+.out-of-stock {
+  color: red;
+  font-weight: bold;
+  position: inherit;
+  margin-top: -20px;
+}
+.dialog-box {
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+}
+.inner-ice-box {
+  background-color: #d8d84a;
+  border: 5px solid black;
+  height: 190px;
+  width: 150px;
+  margin-left: 33%;
+}
+.text-inner-ice-box {
+  text-align: center;
+  margin-top: 10px;
+}
+td {
+  height: 30px;
+  width: 120px;
+}
+.action-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.save {
+  width: 100px;
+  background-color: green;
+  height: 30px;
+  color: white;
+  font-size: 20px;
+}
+.close {
+  width: 100px;
+  background-color: red;
+  height: 30px;
+  color: white;
+  font-size: 20px;
+}
+.add-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  float: right;
+  margin: 20px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
